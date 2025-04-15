@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LSf - Code, Art, Crafts, Chaos" />
+    <meta property="og:title" content="LSf Cyber Portal" />
+    <meta
+      property="og:description"
+      content="Dive into LSf world of code, creations, and crafts"
+    />
+    <meta property="og:image" content="your-photo.jpg" />
+    <title>LSf</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div id="webgl-bg"></div>
+    <div class="profile-container">
+      <img src="logo.svg" alt="LSW Logo" class="profile-logo" />
+      <img
+        src="your-photo.jpg"
+        alt="LSW"
+        class="profile-pic spin"
+        id="profile-pic"
+      />
+
+      />
+      <h1 id="name-text">LSf</h1>
+      <p id="bio-text">
+        I like f1. I'm Addicted to Adrenaline. Coffee Overlord
+      </p>
+      <div class="links" id="links">
+        <a
+          href="https://github.com/LSWasTaken"
+          class="link-btn"
+          target="_blank"
+          rel="noopener"
+          data-platform="github"
+          >GitHub</a
+        >
+        <a
+          href="https://www.instagram.com/lsf4k.cs/"
+          class="link-btn"
+          target="_blank"
+          rel="noopener"
+          data-platform="instagram"
+          >Instagram</a
+        >
+        <a
+          href="https://www.etsy.com/shop/aperolane/?etsrc=sdt"
+          class="link-btn"
+          target="_blank"
+          rel="noopener"
+          data-platform="etsy"
+          >Shop</a
+        >
+        <a href="page2.html" class="link-btn" data-platform="more">About Me</a>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+    </div>
+    <audio id="click-sound" src="click.mp3"></audio>
+    <audio id="ambient-sound" src="ambient.mp3" loop></audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
