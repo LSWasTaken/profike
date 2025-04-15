@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "live-server --port=8080",
-    "build": "echo 'Ready for Vercel'"
+    "build": "mkdir -p public && cp -r * public/"
   },
   "dependencies": {},
   "devDependencies": {
